@@ -1,13 +1,15 @@
 So srt file is, you want to add some subtitles to your video, then how do you create subtitles and add them to the video, srt is a collection file of all the subtitles.
 
-How to create srt file?
+Here's how you can create an SRT file:
 
 component of srt:
-1. Sequence number (1, 2, 3 is a sequence number)
-2. Timecode        (Hours, Minutes, Seconds, Milliseconds, time stamp first 00 is Hours, second 00 is Minutes, and so on seconds and milliseconds)
-3. Text            (Text is a sentence that we want to add between particular time stamps, which show to viewers as a subtitle) 
+1. Sequence number (e.g., 1, 2, 3 indicating the sequence of the subtitles)
 
-example: *Note you should add one empty line space between every timestamp
+2. Timecode (Hours, Minutes, Seconds, Milliseconds, The timestamp represents the start and end time of each subtitle. The first set of zeros (00) represents the hours, the second set represents the minutes, and so on for seconds and milliseconds.)
+
+3. Text (This is the sentence or dialogue that you want to display as a subtitle between the specified time stamps.) 
+
+example: (Note: Leave one empty line space between each timestamp)
 ```
 1
 00:00:01,00 --> 00:00:03,032
@@ -22,4 +24,4 @@ Welcome to this amazing event record
 and this is another amazing moment
 ```
 
-Then save as a .srt extension, and srt file is done.
+Save the file with a .srt extension, and your SRT file is ready to use.
