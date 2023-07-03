@@ -1,0 +1,11 @@
+1
+00:00:01,00 --> 00:00:03,032
+hi this is my family video
+
+2
+00:00:03,032 --> 00:00:05,156
+welcome to this amazing event record
+
+3
+00:00:05,156 --> 00:00:07,00
+and this is another amazing moment
